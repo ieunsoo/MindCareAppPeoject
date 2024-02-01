@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+//todo: textField에 일정글자가 넘어가면 버튼이 활성화되고 색깔도 초록으로 바뀌게 만들기
+
 struct Main: View {
     var body: some View {
         VStack{
@@ -17,6 +19,7 @@ struct Main: View {
                 Spacer()
                     
             }
+            .padding(.bottom, 60)
             HStack{
                 TextField("오늘의 이야기를 들려주세요", text: /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Value@*/.constant("")/*@END_MENU_TOKEN@*/)
                 Button{
@@ -29,8 +32,8 @@ struct Main: View {
             
             Divider()
         }
-        .padding(15)
-        .padding(.bottom, 200)
+        .padding(30)
+        .padding(.bottom, 160)
     }
 }
 

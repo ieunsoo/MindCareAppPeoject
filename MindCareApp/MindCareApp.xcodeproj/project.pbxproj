@@ -57,8 +57,8 @@
 		472074AE2B6684D900278338 /* MindCareApp */ = {
 			isa = PBXGroup;
 			children = (
-				472074BD2B66935B00278338 /* View */,
 				472074AF2B6684D900278338 /* MindCareAppApp.swift */,
+				472074BD2B66935B00278338 /* View */,
 				472074B32B6684DA00278338 /* Assets.xcassets */,
 				472074B52B6684DA00278338 /* Preview Content */,
 			);

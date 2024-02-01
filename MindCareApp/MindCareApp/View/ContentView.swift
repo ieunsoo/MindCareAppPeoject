@@ -15,18 +15,18 @@ struct ContentView: View {
                 Main()
                     .tabItem {
                         Image(systemName: "house.fill")
-                        Text("home")
+                        Text("홈화면")
                     }
                 Record()
                     .tabItem {
                         Image(systemName: "book.pages.fill")
-                        Text("record")
+                        Text("기록")
                             
                     }
                 LifeQuotesView()
                     .tabItem {
                         Image(systemName: "character.book.closed.fill")
-                        Text("Life Quotes")
+                        Text("명언")
                     }
             }
 
